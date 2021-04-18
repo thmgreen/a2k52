@@ -40,10 +40,52 @@
       padding: 20px;
     }
     .mySlides {display:none;}
-
+    .owoSlides {display:none;}
     h2 {
        text-shadow: 3px 3px #000000;
     }
+
+    .flip-card {
+    margin:auto;
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
+
+    .flip-card-back {
+      background-color: #2980b9;
+      color: white;
+      transform: rotateY(180deg);
+    }
+    
   </style>
 </head>
 <body class="slides chain simplifiedMobile animated">
@@ -86,7 +128,7 @@
                   <p class="tiny opacity-6">Ho Duc Hanh</p>
                 </li>
                 <li class="col-6-12 ae-4">
-                  <h3 class="margin-top-3">Monitor</h3>
+                  <h3 class="margin-top-3">Class Monitor</h3>
                   <p class="tiny opacity-6">Nguyen Hoang Quy</p>
                 </li>
                 <li class="col-6-12 ae-5">
@@ -162,10 +204,924 @@
   
 </section>
 
+<!-- Slide 4 (#59)-->
+<section class="slide fade-6 kenBurns fromTop">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="fix-12-12">
+          <div class="w3-container">
+            <h2>Class member list</h2>
+            <p></p>
+          </div>
+          <!-- Add a caption text for each image slide with the w3-display-* classes  -->
+          <!-- (topleft, topmiddle, topright, bottomleft, bottommiddle, bottomright or middle). -->
+          <div class="w3-content w3-display-container">
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Phạm Hoàng An</h1> 
+                    <p>Class member</p> 
+                    <p>18/02/2003</p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Phan Thanh An</h1> 
+                    <p>Class member</p> 
+                    <p>11/04/2004</p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Đàm Tuấn Anh</h1> 
+                    <p>Class member</p> 
+                    <p>22/10/2003</p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Lê Đức Anh</h1> 
+                    <p>Class member</p> 
+                    <p>22/12/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Đình Bách</h1> 
+                    <p>Class member</p> 
+                    <p>01/05/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Gia Bảo</h1> 
+                    <p>Class member</p> 
+                    <p>02/04/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Phương Thảo Đan</h1> 
+                    <p>Class member</p> 
+                    <p>24/03/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Bùi Danh Đạt</h1> 
+                    <p>Class member</p> 
+                    <p>13/12/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Đàm Tuấn Đạt</h1> 
+                    <p>Class member</p> 
+                    <p>05/08/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Trình Tuấn Đạt</h1> 
+                    <p>Class member</p> 
+                    <p>24/08/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Lê Huy Đức</h1> 
+                    <p>Class member</p> 
+                    <p>02/06/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Phan Văn Đức</h1> 
+                    <p>Class member</p> 
+                    <p>14/02/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Lê Thị Thu Hiền
+                    </h1> 
+                    <p>Class Secretary</p> 
+                    <p>18/01/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Lê Thúy Hiền
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>21/07/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Tạ Thu Hiền
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>25/03/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Lê Hiếu
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>06/05/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Trần Trung Hiếu
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>26/04/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Lê Sỹ Hoàng
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>16/12/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Khắc Hoàng
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>27/01/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Cảnh Huy</h1> 
+                    <p>Class member</p> 
+                    <p>13/05/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Trương Đức Huy
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>10/12/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Ngô Sỹ Trung Kiên
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>24/06/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Phạm Trung Kiên
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>08/08/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Phạm Diệu Linh
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>26/05/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Lưu Đức Mạnh
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>11/10/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Phan Lê Nhật Minh
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>08/08/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Hoàng Văn Nguyên
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>11/03/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Đôn Đào Nguyên
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>24/10/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Trần Danh Nhật
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>23/09/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Lê Nguyễn Yến Nhi
+                    </h1> 
+                    <p>Union Secretary</p> 
+                    <p>05/07/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Văn Bảo Ninh
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>07/06/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Trần Hải Phát
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>01/04/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Lục Thiếu Phi
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>16/02/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Phan Xuân Phú
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>30/03/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Võ Minh Quang
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>30/04/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Hoàng Quý
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>06/02/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Cao Xuân Sơn
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>20/10/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Phan Thanh Sơn
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>08/01/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Mai Bảo Thành
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>09/01/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Vũ Minh Thành
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>04/03/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Lê Thị Phương Thảo
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>05/09/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Phạm Thị Thanh Thảo
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>22/07/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Trần Đức Thắng
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>30/10/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Đặng Trọng Thiên
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>16/12/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Hồ Lê Hà Thương
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>25/11/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Bành Thị Thảo Trang
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>13/09/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Đặng Đình Trung
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>30/09/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Phan Đình Thế Trung
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>09/11/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-display-container owoSlides">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/img/classlist/" alt="?" style="width:300px">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Nguyễn Trần Quang Vinh
+                    </h1> 
+                    <p>Class member</p> 
+                    <p>20/12/2003
+                    </p>
+                    <a href="">Personal Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+            
+            </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/a2-k52-4.JPG)"></div>
+</section>
+
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
   
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("owoSlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
 
-
-<!-- Slide 4 (#89) -->
+<!-- Slide 5 (#89) -->
 <section class="slide fade-6 kenBurns fromRight">
   <video autoplay muted loop id="myVideo">
     <source src="assets/mp4/last-page-try1.mp4" type="video/mp4">
